@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 const config = require('./config.json');
-const currentData = require('./currentData.json');
 
 const {Randomizer} = require("./randomizer/randomizer");
 
